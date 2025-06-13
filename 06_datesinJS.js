@@ -3,14 +3,15 @@ let myDate = new Date()
 // console.log(myDate.toString());
 // console.log(myDate.toISOString());
 // console.log(myDate.toJSON());
-// console.log(myDate.toLocaleDateString())
-// console.log(myDate.toLocaleString());
+// console.log(myDate.toLocaleDateString()) sirf date ko print karega
+// console.log(myDate.toLocaleString());    sirf date aur time ko print karega
+// console.log(myDate.toLocaleTimeString());  sirf time ko print karega
 // console.log(typeof myDate)
 
-// let myCreatedDate = new Date(2023, 0, 23)
+// let myCreatedDate = new Date(2023, 0, 23)  issme month 0 se start hota hai
 
 let myCreatedDate = new Date("2025-04-24")
-// console.log(myCreatedDate.toLocaleString());
+// console.log(myCreatedDate.toLocaleString()); issme month 1 se start hota hai
 
 let myTimeStap = Date.now()
 
@@ -18,7 +19,7 @@ let myTimeStap = Date.now()
 
 // console.log(myCreatedDate.getTime());
 
-// console.log(Date.now());
+// console.log(math.floor(Date.now()/1000))i; // seconds
 
 
 let newDate = new Date()

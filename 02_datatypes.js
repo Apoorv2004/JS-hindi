@@ -13,10 +13,11 @@ let isLoggedIn = false
 // string => ""
 // boolean => true/false
 // null => standalone value
-// undefined => 
+// undefined => not assigned
+// object => collection of key-value pairs
 // symbol => unique
 
-// boject
+// object
 
 console.log(typeof "Apoorv");
 console.log(typeof undefined);  // undefined
