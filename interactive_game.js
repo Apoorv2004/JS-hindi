@@ -11,7 +11,7 @@ if (playGame) {
             let computer = (computerChoice === 1) ? "rock"
                           : (computerChoice === 2) ? "paper"
                           : "scissors";
-
+            // Display the choices and result
         let result = 
         playerone === computer ? "It's a tie!"
 : (playerone === "rock" && computer === "paper") ? `playerone: ${playerone}\ncomputer: ${computer}\nComputer wins!`
